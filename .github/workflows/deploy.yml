@@ -20,7 +20,7 @@ jobs:
       # MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       MONGODB_CONNECTION_PROTOCOL: mongodb
       # MONGODB_CLUSTER_ADDRESS: mongodb #used this name to establish network connection with the services 
-      MONGODB_CLUSTER_ADDRESS: 192.168.0.158:27017
+      MONGODB_CLUSTER_ADDRESS: 127.0.0.1:27017
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
